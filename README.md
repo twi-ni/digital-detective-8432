@@ -1,14 +1,14 @@
-DIGITAL DETECTIVE
+# DIGITAL DETECTIVE
 
-# Repository Name
+REPOSITORY NAME
 digital-detective-8432 
 
-# Mission 0
-Deciding Repo name
-Creating project folder
-Creating submission folders and files
-Preparing root README.md
-Publishing the Repo
+MISSION 0
+Deciding Repo name,
+Creating project folder,
+Creating submission folders and files,
+Preparing root README.md,
+Publishing the Repo.
 
 # Mission Index
 •⁠  ⁠[Mission 00 - Setup](./mission-00-setup/README.md)
