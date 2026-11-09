@@ -1,5 +1,10 @@
-Completed the task along with Repo,
-Checked the tools and versions,
-Created Folders and files,
-Repository is a storage space like a folder that holds all project files and codes in a separate space making it easy to access different files and folders inside.
+Completed the task along with Repo
+
+Checked the tools and versions
+
+Created Folders and files
+
+REPOSITORY
+
+Repository is a storage space like a folder that holds all project files and codes in a separate space making it easy to access different files and folders inside
 
