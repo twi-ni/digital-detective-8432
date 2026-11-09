@@ -1,19 +1,5 @@
 # DIGITAL DETECTIVE
-
-REPOSITORY NAME
-digital-detective-8432 
-
-MISSION 0
-
-Deciding Repo name
-
-Creating project folder
-
-Creating submission folders and files
-
-Preparing root README.md
-
-Publishing the Repo
+The purpose is to understand your computer better, knowing how it works by using and applying the concepts studied so far.
 
 # Mission Index
 •⁠  ⁠[Mission 00 - Setup](./mission-00-setup/README.md)
