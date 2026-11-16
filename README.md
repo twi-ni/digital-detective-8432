@@ -24,4 +24,6 @@ The purpose is to understand your computer better, knowing how it works by using
 
 Every mission here is completed and committed separately inside the one parent folder.
 
+## Git Practice
 
+I am learning how to use Git to track changes in my project. This helps me keep a record of my work and manage different versions of my files.
