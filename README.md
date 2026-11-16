@@ -21,9 +21,41 @@ The purpose is to understand your computer better, knowing how it works by using
 •⁠  ⁠[Mission 08 - Final Report](./mission-08-final-report/README.md)
 
 
+## Topics Covered
 
-Every mission here is completed and committed separately inside the one parent folder.
+During this assignment, I explored:
 
-## Git Practice
+- Computer hardware, software and the IPOS cycle.
+- Basic Terminal commands and file management.
+- Operating systems, processes and file permissions.
+- How compilers and interpreters work.
+- Binary, decimal and hexadecimal number systems.
+- Python programming and text encoding.
+- Git, GitHub, branches and Pull Requests.
+- Computer networks, DNS, routers and website communication.
 
-I am learning how to use Git to track changes in my project. This helps me keep a record of my work and manage different versions of my files.
+## Running the Number Converter
+
+As part of Mission 5, I created a small Python program that converts decimal numbers into binary and hexadecimal.
+To run the program:
+1. Open Terminal in the project folder.
+
+2. Move into the Mission 5 folder:
+   cd mission-05-numbers-data
+
+3. Run the program:
+   python3 number_converter.py
+
+4. Enter a positive decimal number when asked. The program will display its binary and hexadecimal values.
+
+## What I Learned
+
+This assignment helped me get more comfortable with using Terminal and working with files and folders. I also got to understand how computers store information, run programs and communicate over networks.
+I learned how to use Git and GitHub to track my work and maintain a repository. Overall, it gave me a chance to try out different things practically instead of just learning about them theoretically.
+
+## Repository Structure
+
+Each mission has its own folder containing a README file and the work related to that mission. The missions were documented and committed separately, and the changes were pushed to GitHub.
+The 'evidence' folder contains screenshots and outputs collected during the practical tasks.
+
+
