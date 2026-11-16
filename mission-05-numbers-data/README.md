@@ -15,8 +15,8 @@ The objective of this mission was to understand how computers represent numbers 
 - Learned about ASCII and Unicode text encoding.
 
 ## Commands / Tools Used
-- **VS Code** – To write and edit the files.
-- **Terminal** – To run the Python program.
+- VS Code – To write and edit the files.
+- Terminal – To run the Python program.
 - `python3 number_converter.py` – To execute the converter.
 - Python functions used: `input()`, `int()`, `bin()`, `hex()` and `print()`.
 

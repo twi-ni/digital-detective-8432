@@ -1,43 +1,45 @@
-# Mission 2 — Become comfortable with the Terminal
 
-## Task 2.1 — Explore basic Terminal operations
+# Mission 2 - Become Comfortable with the Terminal
 
-| Operation / command name | What it does | What I observed |
+## Task 2.1 - Explore basic Terminal operations
+
+| Command | What it does | What I observed |
 | --- | --- | --- |
-| Current directory display (`pwd`) | Prints the full path of the folder you are currently working in. | Displayed the complete path from `/Users/...` down to my repository folder. |
-| Directory listing (`ls`) | Lists the files and folders in the current location. | Showed all mission folders and `README.md` side by side. |
-| Detailed listing (`ls -l`) | Displays the listing in a detailed format with permissions, size and date. | Listed each item on its own line with permissions, timestamps and byte sizes. |
-| Change directory (`cd ..`) | Moves to the parent folder one level up. | Running `pwd` afterward confirmed my current location moved up one folder. |
-| Create directory (`mkdir`) | Creates a new folder with the given name. | Created the new practice folder immediately with no errors. |
-| Create empty file (`touch`) | Creates a new empty text file inside the folder. | Created a blank `.txt` file with a size of `0` bytes. |
-| Copy file (`cp`) | Makes a copy of a file with a different name. | Both the original file and the copied file appeared in the folder. |
-| Move /rename file (`mv`) | Renames or moves a file to another location. | The copied filename disappeared and was replaced by the new name. |
-| Display file contents (`cat`) | Displays the contents of a text file in the terminal. | Printed the text stored inside the original file onto the screen. |
+| `pwd` | Shows the folder I am currently in. | It showed the full path to my repository folder. |
+| `ls` | Shows the files and folders in the current folder. | I could see all my mission folders and the README file. |
+| `ls -l` | Shows the files with more details like size and permissions. | Each file was shown on a separate line with its details. |
+| `cd ..` | Takes me one folder back. | I used `pwd` again and saw that I had moved to the parent folder. |
+| `mkdir` | Creates a new folder. | My new practice folder was created successfully. |
+| `touch` | Creates an empty file. | It created a blank text file with 0 bytes. |
+| `cp` | Copies a file. | I could see both the original file and its copy. |
+| `mv` | Moves or renames a file. | The old filename changed to the new one. |
+| `cat` | Shows what's written inside a file. | The text appeared directly in the Terminal. |
 
-## Task 2.2 — Practise file changes safely
+## Task 2.2 - Practise file changes safely
 
-* **What is the difference between replacing a file's contents and adding text to the end?**
-  Replacing a file's contents (using `>`) overwrites the entire file and deletes existing text. Adding text to the end (using `>>`) appends new lines to the bottom while keeping existing text intact.
+1. What is the difference between replacing a file's contents and adding text to the end?
+When I use `>`, the old content gets replaced with the new text. But `>>` adds the new text at the end without removing what was already there.
 
-* **What is the difference between copying a file and moving a file?**
-  Copying (`cp`) creates a duplicate file so both the original and the copy exist. Moving (`mv`) transfers or renames the single file without leaving a duplicate behind.
+2. What is the difference between copying a file and moving a file?
+`cp` makes another copy of the file, so the original stays where it is. `mv` moves the file to another place or changes its name.
 
-* **What information does the current directory display provide?**
-  The `pwd` command shows the full folder path of your current working location so you know where your commands will take effect.
+3. What information does the current directory display provide?
+The `pwd` command tells me exactly which folder I am currently working in. This is useful because I know where the files I create or change will be.
 
-* **Why is a directory-listing operation useful?**
-  Listing files (`ls` and `ls -l`) helps verify that files were created, copied, or renamed properly and shows details like file sizes and permissions.
+4. Why is a directory-listing operation useful?
+Commands like `ls` help me see what files and folders are present. I can also use `ls -l` to check more details and make sure my files were created or renamed properly.
 
-  ## Task 2.3 — Understand flags and pipes
+## Task 2.3 - Understand flags and pipes
 
-* **Normal listing (`ls`) vs Detailed listing with flags (`ls -lah`):**
-  Running `ls` displays only the visible file and folder names in simple columns. Adding the `-l`, `-a` (all files, including hidden files starting with a dot like `.git`) and `-h` flags shows permissions, link counts, file sizes, timestamps, and hidden configuration files.
+1. Normal listing (`ls`) vs detailed listing (`ls -lah`)
+`ls` just shows the file and folder names. When I use `ls -lah`, I get more information like file sizes, permissions and dates. It also shows hidden files, such as `.git`, which normally don't appear in a regular listing.
 
-* **Pipe example (`ls -l | head -n 5`) and how it works:**
-  The pipe symbol (`|`) connects two commands by taking the output generated by the command on the left and passing it directly as input to the command on the right.
-  * **Left side (`ls -l`):** Generates the full detailed list of every file and folder in the directory.
-  * **Right side (`head -n 5`):** Filters that incoming list and prints only the first 5 lines on the screen.
+2. Pipe example (`ls -l | head -n 5`) and how it works
+The `|` symbol is called a pipe. It takes the output of one command and sends it to the next command.
+- `ls -l` shows the detailed list of files and folders.
+- `head -n 5` displays only the first 5 lines from that list.
+So instead of seeing the entire list, I only get the first five lines.
 
-## Task 2.4 — Understand package managers
+## Task 2.4 - Understand package managers
 
-Package managers are useful because they automate installing, updating, configuring and removing software from the command line while automatically handling required dependencies. On macOS, Homebrew (`brew`) is a popular package manager that lets developers install command line tools and applications cleanly using simple terminal commands instead of manually downloading installers from websites. 
+A package manager helps us install, update and remove software without having to download and set up everything manually. On macOS, one example is Homebrew, which is also called `brew`. It can be used to install different tools and applications directly through the Terminal.

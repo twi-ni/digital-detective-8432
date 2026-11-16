@@ -1,43 +1,41 @@
 # Mission 4 - How Programs Run
 
-## 1. Task 
+## 1. Task
 
-The objective of this mission was to understand how programs run and learn the difference between compilers and interpreters.
+The aim of this mission was to learn how programs run and understand the difference between a compiler and an interpreter.
 
 ## 2. Work Completed
 
-- Created a Python file named `hello.py`.
-- Wrote a simple Python program to display a message.
-- Ran the program using Python 3 in the Terminal.
-- Compared compilers and interpreters based on how they work.
+- Created a Python file called `hello.py`.
+- Wrote a small program to print a message.
+- Ran the program using Python in the Terminal.
+- Learned the difference between compilers and interpreters.
 
 ## 3. Commands / Tools Used
 
-- `python3 hello.py` - Used to run the Python program.
-- `python3 --version` - Used to check the installed Python version.
-- VS Code - Used to write and edit the Python file.
-- Terminal - Used to execute the program.
+- `python3 hello.py` - Used to run my Python file.
+- `python3 --version` - Checked which Python version was installed.
+- VS Code - Used to write and edit the program.
+- Terminal - Used to run the program.
 
-## 4. My Understanding
+## 4. What I Understood
 
-I understood that a program needs to be translated into a form that the computer can execute.
-A compiler translates the program before it runs, while an interpreter reads and executes the code during runtime. A compiler often creates a separate executable file, whereas an interpreter usually runs the code directly.
-Both are used to help computers understand and execute programs.
+I learned that computers need programs to be translated so they can run them. A compiler converts the code before running it, while an interpreter reads and runs the code during execution. A compiler usually creates a separate file, but an interpreter generally runs the code directly. Both help us run programs, just in different ways.
 
 ## 5. Difficulties Faced
 
-Initially, I was a little confused about how to run a Python file through the Terminal.
+At first, I was a bit confused about how to run a Python file using the Terminal.
 
-## 6. How I Resolved Them
+## 6. How I Fixed Them
 
-I used the `python3 hello.py` command to run my program and checked the output.
+I tried the `python3 hello.py` command in the Terminal and checked if the expected output appeared.
 
-## 7. Evidence/Files
+## 7. Evidence / Files
 
-- `hello.py` - Contains the Python program.
-- `mission-4-task.md` - Contains the answers for Task 4.1 and Task 4.2.
-- `README.md` - Contains the mission summary.
-- Screenshot of the program running successfully .
+- `hello.py` - My Python program.
+- `mission-4-task.md` - Contains my answers for both tasks.
+- `README.md` - Contains the summary of this mission.
+- Screenshot - Shows the program running successfully.
 
 ## 8. Commit Details
 
