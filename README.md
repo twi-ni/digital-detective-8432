@@ -20,7 +20,6 @@ The purpose is to understand your computer better, knowing how it works by using
 
 •⁠  ⁠[Mission 08 - Final Report](./mission-08-final-report/README.md)
 
-•⁠  ⁠[Evidence Locker](./evidence/)
 
 
 Every mission here is completed and committed separately inside the one parent folder.
