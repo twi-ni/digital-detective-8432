@@ -27,3 +27,7 @@ Every mission here is completed and committed separately inside the one parent f
 ## Git Practice
 
 I am learning how to use Git to track changes in my project. This helps me keep a record of my work and manage different versions of my files.
+
+## My Learning
+
+Through this assignment, I built up my foundational tech skills by getting comfortable in the Terminal and learning how operating systems manage programs and permissions. I also used Python to practice converting between decimal, binary, and hexadecimal, and started using Git to track changes in my code.
